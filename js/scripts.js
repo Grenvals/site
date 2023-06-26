@@ -382,7 +382,7 @@ document.addEventListener('DOMContentLoaded', function () {
   };
 
   const audioPlayer = () => {
-    var myAudio = new Audio('../audio/david-bowie-space-oddity.mp3');
+    var myAudio = new Audio('./audio/david-bowie-space-oddity.mp3');
     myAudio.preload = 'none';
     const controllElement = document.querySelector('.robot__init');
     let isPlay = false;
