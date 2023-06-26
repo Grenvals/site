@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Valentyn Dubin Portfolio</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5">
+    <!-- Open Graph-->
+    <meta property="og:title" content="Valentyn Dubin Portfolio">
+    <meta property="og:description" content="Valentyn Dubin, Frontend Developer">
+    <meta property="og:site_name" content="Valentyn Dubin Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="grenvalz.kl.com.ua">
+    <meta property="og:image" content="https://grenvalz.kl.com.ua/img/og-title.png">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__wrap">
+            <div class="header__column">
+              <div class="header__logo logo"><a class="logo__img" href="../index.html"><img src="../img/logo.svg" alt="Logo"/></a>
+              </div>
+            </div>
+            <div class="language"><span class="language__arrow"><img src="../img/global.svg" alt="global"/></span>
+              <div class="language__default"><span>ENG</span>
+                <ul class="language__list">
+                  <li><a class="language__link" href="geoinfo.html">RU</a></li>
+                  <li><a class="language__link" href="geoinfo.html">UA</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="header__column menu"><a class="menu__icon" href="#"><span></span><span></span><span></span></a>
+              <nav class="menu__container">
+                <ul class="menu__list">
+                  <li><a class="menu__link" href="../index.html#about">About</a></li>
+                  <li><a class="menu__link" href="../index.html#skills">Skills</a></li>
+                  <li><a class="menu__link" href="../index.html#portfolio">Portfolio</a></li>
+                  <li><a class="menu__link" href="../index.html#contacts">Contacts</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <article class="review">
+        <div class="container">
+          <div class="review__wrap">
+            <div class="breadcrumbs"><a class="breadcrumbs__link button-underline" href="../index.html">Home</a><span class="breadcrumbs__arrow">/</span><a class="breadcrumbs__link button-underline" href="../index.html#portfolio">Portfolio</a><span class="breadcrumbs__arrow">/</span><span class="breadcrumbs__current">GeoInfo</span>
+            </div>
+            <h1 class="review__title title">GeoInfo</h1>
+            <p class="review__description">Geographic information system(GIS) where you can combine and monitor different geodata. </p>
+            <div class="review__cover"> <img src="../img/portfolio/geoinfo/review.png" alt=""></div>
+            <h2 class="review__title_small title title_small">Video review</h2>
+            <div class="review__video"> 
+              <div>
+                <iframe src="https://www.youtube.com/embed/_H1fAfAuQLM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+              </div>
+            </div>
+            <h2 class="review__title_small title title_small">Application</h2>
+            <p class="review__description">Геоінформаційна система, де ви можете комбінувати та спостерігати за різними геоданими. Відображення положенння супутників, топографічні карти, забруднення повітря, атмосферні показники та інше. Поставив для себе декілька задач: cпробувати Redux-Saga, попрацювати з картами(Leaflet), заюзати api геолокації та познайомитись з TypeScript.</p>
+            <div class="review__link"><a class="button" href="https://geo-info.vercel.app" target="blank">App online</a><a class="button" href="https://github.com/Grenvals/GeoInfo" target="blank">Github</a></div>
+            <h2 class="review__title_small title title_small">Functional</h2>
+            <ul class="review__section">
+              <li class="review__section-item"> 
+                <h3 class="review__subtitle">Space</h3>
+                <ul class="review__list">
+                  <li class="review__list-item">Відображення масиву супутників Starlink(оновлення кожних 10хв), площі покриття зв'язком, кількість виведених на орбіту, детальну інформацію про кожний супутник.</li>
+                  <li class="review__list-item">Відображення МКС в режимі реального часу, пройденої траекторії, зони видимості з землі.</li>
+                </ul>
+              </li>
+              <li class="review__section-item"> 
+                <h3 class="review__subtitle">Maps </h3>
+                <ul class="review__list">
+                  <li class="review__list-item">Супутникові знімки</li>
+                  <li class="review__list-item">Карта генштабу</li>
+                  <li class="review__list-item">Велодороги</li>
+                  <li class="review__list-item">Транспорт</li>
+                  <li class="review__list-item">Карта туристичних маршрутів</li>
+                  <li class="review__list-item">Карта залізниць</li>
+                  <li class="review__list-item">Карта нічних знімків NASA</li>
+                </ul>
+              </li>
+              <li class="review__section-item"> 
+                <h3 class="review__subtitle">Layers </h3>
+                <ul class="review__list">
+                  <li class="review__list-item">Забруднення повітря в реальному часі</li>
+                  <li class="review__list-item">Осадки</li>
+                  <li class="review__list-item">Повітряний тиск</li>
+                </ul>
+              </li>
+              <li class="review__section-item"> 
+                <h3 class="review__subtitle">Маrkers</h3>
+                <ul class="review__list">
+                  <li class="review__list-item">додавання маркерів</li>
+                  <li class="review__list-item">зберігання масиву маркерів</li>
+                  <li class="review__list-item">фільтрація маркерів за категоріями</li>
+                </ul>
+              </li>
+            </ul>
+            <h2 class="review__title_small title title_small">Technology</h2>
+            <ul class="review__section">
+              <li class="review__section-item"> 
+                <h3 class="review__subtitle">Architecture</h3>
+                <p class="review__paragraph">UI(React), BLL(Redux), DAL(Redux-Saga)</p>
+              </li>
+              <li class="review__section-item"> 
+                <h3 class="review__subtitle">Shell</h3>
+                <p class="review__paragraph">Збірка на основі webpack + babel, з можливістю поступової інтеграції TypeScript.</p>
+              </li>
+              <li class="review__section-item"> 
+                <h3 class="review__subtitle">Layout</h3>
+                <p class="review__paragraph">Для стилізації використовував <span class="accent">sass</span>. Для кастомізації скролбара використовував <span class="accent">react-perfect-scrollbar</span>. Для зручного комбінування класів підключив бібліотеку <span class="accent">classnames</span>.</p>
+              </li>
+              <li class="review__section-item"> 
+                <h3 class="review__subtitle">Store</h3>
+                <p class="review__paragraph">Для зберігання глобального стану додатка використовував традиційно <span class="accent">redux, react-redux,</span> щоб зручно використовувати redux всередині react. Спробував заюзати замість connect хуки. З однієї сторони це знімає необхідність обгортати компонент в HOC(connect hell), але є свої мінуси. Перший - ми використовуємо dispatch напряму. Також ми навантажуючи компонент сторонніми діями, ламаємо парадигму чистих функцій SOLID. Також useSelector на відміну від оптимізацій connect, не зупиняє ререндер компонента, навіть якщо props не змінились, що змушує використовувати React.memo. При передачі callback з dispatch дочірнім компонентам потрібно обгортати в useCallback, щоб компоненти не ренедерились без необхідності.  </p>
+              </li>
+              <li class="review__section-item"> 
+                <h3 class="review__subtitle">Route</h3>
+                <p class="review__paragraph">Для реалізації роутинга використав бібліотеку <span class="accent">react-router-dom</span></p>
+              </li>
+              <li class="review__section-item"> 
+                <h3 class="review__subtitle">API</h3>
+                <p class="review__paragraph">Для того щоб мати можливість створювати асинхронні action, сайд ефекти, підключив <span class="accent">redux-saga</span>. Використав доступ до SpaceX API v4, NASA API(ISS).</p>
+              </li>
+              <li class="review__section-item"> 
+                <h3 class="review__subtitle">Maps</h3>
+                <p class="review__paragraph">Для роботи з картами використав бібліотеку <span class="accent">Leaflet</span>.</p>
+              </li>
+            </ul>
+            <div class="review__screenshots preview preview_large">
+              <h2 class="review__title_small title title_small"> Screenshots</h2>
+              <ul class="preview__list">
+                <li class="preview__items"><a class="preview__link" href="https://geo-info.vercel.app" target="blank"><img class="preview__img" src="../img/portfolio/geoinfo/s2.png" alt="Screenshot"></a></li>
+                <li class="preview__items"><a class="preview__link" href="https://geo-info.vercel.app" target="blank"><img class="preview__img" src="../img/portfolio/geoinfo/s1.png" alt="Screenshot"></a></li>
+                <li class="preview__items"><a class="preview__link" href="https://geo-info.vercel.app" target="blank"><img class="preview__img" src="../img/portfolio/geoinfo/s3.png" alt="Screenshot"></a></li>
+                <li class="preview__items"><a class="preview__link" href="https://geo-info.vercel.app" target="blank"><img class="preview__img" src="../img/portfolio/geoinfo/s4.png" alt="Screenshot"></a></li>
+                <li class="preview__items"><a class="preview__link" href="https://geo-info.vercel.app" target="blank"><img class="preview__img" src="../img/portfolio/geoinfo/s6.png" alt="Screenshot"></a></li>
+                <li class="preview__items"><a class="preview__link" href="https://geo-info.vercel.app" target="blank"><img class="preview__img" src="../img/portfolio/geoinfo/s7.png" alt="Screenshot"></a></li>
+              </ul>
+            </div>
+            <h2 class="review__title_small title title_small"> Contacts</h2>
+            <ul class="review__list">
+              <li class="review__list-item">If you have questions, please <a class="accent link" href="../index.html#contacts">contact me</a> 🙂.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+      <footer class="footer" id="footer">
+        <div class="container">
+          <div class="footer__copyright">Copyright &copy; 2020. Made by Valentyn Dubin</div>
+        </div>
+      </footer>
+    </div>
+    <script src="../js/scripts-light.js"> </script>
+  </body>
+</html>

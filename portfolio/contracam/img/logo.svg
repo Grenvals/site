@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 802" style="enable-background:new 0 0 800 802;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
+	.st1{opacity:0.2;enable-background:new    ;}
+	.st2{opacity:5.000000e-02;enable-background:new    ;}
+	.st3{fill:#EDCE1B;}
+	.st4{fill:#FFF066;}
+</style>
+<title>logo</title>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="880.9219" y1="652.8393" x2="543.6819" y2="-225.7207" gradientTransform="matrix(1 0 0 1 -395 -29)">
+	<stop  offset="0" style="stop-color:#16234F"/>
+	<stop  offset="0.16" style="stop-color:#133864"/>
+	<stop  offset="0.2" style="stop-color:#123D69"/>
+	<stop  offset="1" style="stop-color:#00A7D4"/>
+</linearGradient>
+<path class="st0" d="M0,0v800h800c0,0,0-60.4-0.4-139.8L800,0H0z"/>
+<polygon class="st1" points="800,367.2 675,199 631,141 132.2,412.9 354.5,802 549.2,802 800,800 800,800 "/>
+<path class="st2" d="M800,377.5L677.6,208.7L303.2,396.9L544.5,801l255.5-1V377.5z"/>
+<polyline class="st3" points="483,687.5 631.6,141.3 354.5,487 "/>
+<polyline class="st4" points="131.6,407.4 631.3,141.6 355.5,488.3 "/>
+<path class="st3" d="M631.1,141.2"/>
+</svg>
